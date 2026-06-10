@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+
+<html class="light" lang="nl">
+
+<head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Nails by Thu | Zachte elegantie in Rotterdam</title>
+        <!-- Material Symbols -->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet" />
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <script id="tailwind-config">
+                tailwind.config = {
+                        darkMode: "class",
+                        theme: {
+                                extend: {
+                                        "colors": {
+                                                "on-secondary-container": "#745c00",
+                                                "outline": "#797581",
+                                                "on-primary": "#ffffff",
+                                                "tertiary-fixed-dim": "#d8b9ff",
+                                                "inverse-on-surface": "#f2f1ee",
+                                                "surface-container-high": "#e9e8e5",
+                                                "secondary-fixed-dim": "#e9c349",
+                                                "surface-container-lowest": "#ffffff",
+                                                "on-background": "#1a1c1a",
+                                                "surface-variant": "#e3e2e0",
+                                                "primary": "#5f559a",
+                                                "surface-bright": "#faf9f6",
+                                                "surface-dim": "#dbdad7",
+                                                "on-tertiary": "#ffffff",
+                                                "tertiary-fixed": "#eddcff",
+                                                "on-error-container": "#93000a",
+                                                "surface-container-low": "#f4f3f1",
+                                                "secondary": "#735c00",
+                                                "on-tertiary-fixed": "#270a49",
+                                                "inverse-surface": "#2f312f",
+                                                "surface": "#faf9f6",
+                                                "surface-container": "#efeeeb",
+                                                "inverse-primary": "#c8bfff",
+                                                "on-error": "#ffffff",
+                                                "primary-fixed-dim": "#c8bfff",
+                                                "on-primary-fixed": "#1b0c53",
+                                                "on-tertiary-fixed-variant": "#543a77",
+                                                "outline-variant": "#c9c4d1",
+                                                "error-container": "#ffdad6",
+                                                "on-surface-variant": "#484550",
+                                                "on-primary-container": "#4b4185",
+                                                "on-secondary": "#ffffff",
+                                                "primary-container": "#bdb2ff",
+                                                "on-secondary-fixed-variant": "#574500",
+                                                "on-tertiary-container": "#583e7c",
+                                                "on-surface": "#1a1c1a",
+                                                "error": "#ba1a1a",
+                                                "secondary-container": "#fed65b",
+                                                "secondary-fixed": "#ffe088",
+                                                "tertiary-container": "#cdaef5",
+                                                "tertiary": "#6d5291",
+                                                "primary-fixed": "#e5deff",
+                                                "on-primary-fixed-variant": "#473d81",
+                                                "on-secondary-fixed": "#241a00",
+                                                "surface-tint": "#5f559a",
+                                                "surface-container-highest": "#e3e2e0",
+                                                "background": "#faf9f6"
+                                        },
+                                        "borderRadius": {
+                                                "DEFAULT": "0.25rem",
+                                                "lg": "0.5rem",
+                                                "xl": "0.75rem",
+                                                "full": "9999px"
+                                        },
+                                        "spacing": {
+                                                "margin-safe": "32px",
+                                                "gutter": "16px",
+                                                "unit": "8px",
+                                                "element-gap": "24px",
+                                                "section-gap": "80px"
+                                        },
+                                        "fontFamily": {
+                                                "display-lg-mobile": [
+                                                        "Playfair Display"
+                                                ],
+                                                "body-lg": [
+                                                        "Montserrat"
+                                                ],
+                                                "body-md": [
+                                                        "Montserrat"
+                                                ],
+                                                "display-lg": [
+                                                        "Playfair Display"
+                                                ],
+                                                "label-md": [
+                                                        "Montserrat"
+                                                ],
+                                                "caption": [
+                                                        "Montserrat"
+                                                ],
+                                                "headline-sm": [
+                                                        "Playfair Display"
+                                                ],
+                                                "headline-md": [
+                                                        "Playfair Display"
+                                                ]
+                                        },
+                                        "fontSize": {
+                                                "display-lg-mobile": [
+                                                        "36px",
+                                                        {
+                                                                "lineHeight": "1.2",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "body-lg": [
+                                                        "18px",
+                                                        {
+                                                                "lineHeight": "1.6",
+                                                                "fontWeight": "300"
+                                                        }
+                                                ],
+                                                "body-md": [
+                                                        "16px",
+                                                        {
+                                                                "lineHeight": "1.5",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "display-lg": [
+                                                        "48px",
+                                                        {
+                                                                "lineHeight": "1.1",
+                                                                "letterSpacing": "-0.02em",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "label-md": [
+                                                        "14px",
+                                                        {
+                                                                "lineHeight": "1.2",
+                                                                "letterSpacing": "0.05em",
+                                                                "fontWeight": "500"
+                                                        }
+                                                ],
+                                                "caption": [
+                                                        "12px",
+                                                        {
+                                                                "lineHeight": "1.4",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "headline-sm": [
+                                                        "24px",
+                                                        {
+                                                                "lineHeight": "1.4",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "headline-md": [
+                                                        "32px",
+                                                        {
+                                                                "lineHeight": "1.3",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ]
+                                        }
+                                },
+                        },
+                }
+        </script>
+        <style>
+                body {
+                        background-color: #faf9f6;
+                        color: #1a1c1a;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                }
+
+                .petal-shape {
+                        border-radius: 60% 40% 70% 30% / 40% 50% 60% 50%;
+                }
+
+                .petal-shape-alt {
+                        border-radius: 40% 60% 30% 70% / 50% 40% 50% 60%;
+                }
+
+                .soft-shadow {
+                        box-shadow: 0 20px 40px -10px rgba(157, 129, 137, 0.05);
+                }
+
+                .paper-script {
+                        background: #ffffff;
+                        box-shadow: 0 4px 20px -2px rgba(157, 129, 137, 0.08);
+                        border: 1px solid #e3e2e0;
+                }
+
+                .hover-fade {
+                        transition: all 0.4s ease;
+                }
+
+                .hover-fade:hover {
+                        opacity: 0.8;
+                        transform: translateY(-2px);
+                }
+
+                /* Dotted line for lists */
+                .dotted-leader {
+                        flex-grow: 1;
+                        border-bottom: 1px dotted #c9c4d1;
+                        margin: 0 16px;
+                        position: relative;
+                        top: -6px;
+                        opacity: 0.5;
+                }
+
+                .video-frame {
+                        box-shadow: 0 26px 70px -36px rgba(95, 85, 154, 0.55);
+                }
+
+                @media (prefers-reduced-motion: reduce) {
+
+                        *,
+                        *::before,
+                        *::after {
+                                animation-duration: 0.001ms !important;
+                                animation-iteration-count: 1 !important;
+                                scroll-behavior: auto !important;
+                        }
+                }
+
+                @media (max-width: 767px) {
+                        body {
+                                padding-bottom: 104px;
+                        }
+
+                        header nav,
+                        section,
+                        footer {
+                                padding-left: 20px !important;
+                                padding-right: 20px !important;
+                        }
+
+                        section,
+                        footer {
+                                padding-top: 56px !important;
+                                padding-bottom: 56px !important;
+                        }
+
+                        h1 {
+                                font-size: 34px !important;
+                                line-height: 1.12 !important;
+                        }
+
+                        h2 {
+                                line-height: 1.18 !important;
+                        }
+
+                        .paper-script,
+                        .video-frame,
+                        .rounded-3xl {
+                                border-radius: 24px !important;
+                        }
+
+                        .video-frame {
+                                max-width: 360px;
+                                margin-left: auto;
+                                margin-right: auto;
+                        }
+                }
+        </style>
+</head>
+
+<body
+        class="font-body-md text-body-md overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container md:pb-0">
+        <!-- Top Navigation (Shared Component) -->
+        <header
+                class="bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm shadow-tertiary-container/10">
+                <nav class="flex justify-between items-center px-5 md:px-margin-safe py-4 md:py-gutter max-w-screen-2xl mx-auto gap-4">
+                        <a class="font-display-lg text-headline-sm text-primary dark:text-primary-fixed-dim tracking-tight"
+                                href="#">Nails by Thu</a>
+                        <div class="hidden md:flex items-center gap-element-gap">
+                                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300"
+                                        href="#behandelingen">Behandelingen</a>
+                                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300"
+                                        href="#over">Over Thu</a>
+                                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300"
+                                        href="#locatie">Locatie</a>
+                                <a class="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-300"
+                                        href="#locatie">Contact</a>
+                        </div>
+                        <a class="hidden md:inline-flex bg-primary-container text-on-primary-container px-6 py-3 rounded-full font-label-md text-label-md hover:opacity-90 transition-opacity"
+                                href="https://www.fresha.com/nl/lvp/thu-perfect-nails-gustave-dixonstraat-rotterdam-46A6Vy"
+                                rel="noopener noreferrer" target="_blank">Boek nu</a>
+                </nav>
+        </header>
+        <main>
+                <!-- Hero Section -->
+                <section
+                        class="relative min-h-[100dvh] flex items-center pt-24 md:pt-28 pb-24 md:pb-section-gap px-5 md:px-margin-safe overflow-hidden">
+                        <!-- Background Textures & Shader -->
+                        <div class="absolute inset-0 z-0 opacity-20"
+                                style="background-image: url('hero-texture-lavender.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <!-- STITCH_SHADER_START:ANIMATION_4 class="absolute inset-0 w-full h-full z-0 opacity-40 mix-blend-multiply" -->
+                        <div class="absolute inset-0 w-full h-full z-0 opacity-40 mix-blend-multiply"
+                                style="display:block;">
+                                <canvas id="shader-canvas-ANIMATION_4"
+                                        style="display:block;width:100%;height:100%"></canvas>
+                                <script>
+                                                (function () {
+                                                        const canvas = document.getElementById('shader-canvas-ANIMATION_4');
+
+                                                        // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+                                                        // This fires on initial layout and whenever the element is resized.
+                                                        function syncSize() {
+                                                                const w = canvas.clientWidth || 1280;
+                                                                const h = canvas.clientHeight || 720;
+                                                                if (canvas.width !== w || canvas.height !== h) {
+                                                                        canvas.width = w;
+                                                                        canvas.height = h;
+                                                                }
+                                                        }
+                                                        if (typeof ResizeObserver !== 'undefined') {
+                                                                new ResizeObserver(syncSize).observe(canvas);
+                                                        }
+                                                        syncSize();
+
+                                                        const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+                                                        if (!gl) return;
+                                                        const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+                                                        const fs = `
+precision highp float;
+varying vec2 v_texCoord;
+uniform float u_time;
+uniform vec2 u_resolution;
+
+// Simpele noise functie voor zwevende beweging
+float hash(vec2 p) {
+    p = fract(p * vec2(123.34, 456.21));
+    p += dot(p, p + 45.32);
+    return fract(p.x * p.y);
+}
+
+void main() {
+    vec2 uv = v_texCoord;
+    vec2 p = uv * u_resolution.xy / max(u_resolution.x, u_resolution.y);
+    
+    // Zachte lavendel achtergrondkleur
+    vec3 color = vec3(0.95, 0.93, 1.0); // Zeer licht lila
+    
+    // Simuleer zwevende blaadjes/deeltjes
+    for(float i=0.0; i<15.0; i++) {
+        float h = hash(vec2(i, i*1.2));
+        float t = u_time * 0.1 + h * 10.0;
+        
+        // Positie berekening
+        vec2 pos = vec2(
+            fract(h * 2.0 + sin(t * 0.5) * 0.1), 
+            fract(h * 3.0 + t * 0.2)
+        );
+        
+        // Afstand tot pixel
+        float dist = length(uv - pos);
+        
+        // Teken een 'blaadje' (zachte ovaal)
+        float size = 0.005 + h * 0.01;
+        float petal = smoothstep(size, 0.0, dist);
+        
+        // Kleur van de blaadjes (lavendel paars)
+        vec3 petalColor = vec3(0.74, 0.70, 1.0); // #BDB2FF
+        color = mix(color, petalColor, petal * 0.3);
+    }
+    
+    gl_FragColor = vec4(color, 1.0);
+}
+`;
+                                                        function cs(type, src) {
+                                                                const s = gl.createShader(type);
+                                                                gl.shaderSource(s, src);
+                                                                gl.compileShader(s);
+                                                                return s;
+                                                        }
+                                                        const prog = gl.createProgram();
+                                                        gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+                                                        gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+                                                        gl.linkProgram(prog);
+                                                        gl.useProgram(prog);
+                                                        const buf = gl.createBuffer();
+                                                        gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+                                                        gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+                                                        const pos = gl.getAttribLocation(prog, 'a_position');
+                                                        gl.enableVertexAttribArray(pos);
+                                                        gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+                                                        const uTime = gl.getUniformLocation(prog, 'u_time');
+                                                        const uRes = gl.getUniformLocation(prog, 'u_resolution');
+                                                        const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+
+                                                        // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+                                                        // Shaders that need normalized coords should use: u_mouse / u_resolution.
+                                                        let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+                                                        window.addEventListener('mousemove', (event) => {
+                                                                const rect = canvas.getBoundingClientRect();
+                                                                if (rect.width && rect.height) {
+                                                                        const nx = (event.clientX - rect.left) / rect.width;
+                                                                        const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+                                                                        mouse.x = nx * canvas.width;
+                                                                        mouse.y = ny * canvas.height;
+                                                                }
+                                                        });
+
+                                                        function render(t) {
+                                                                if (typeof ResizeObserver === 'undefined') syncSize();
+                                                                gl.viewport(0, 0, canvas.width, canvas.height);
+                                                                if (uTime) gl.uniform1f(uTime, t * 0.001);
+                                                                if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+                                                                if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+                                                                gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+                                                                requestAnimationFrame(render);
+                                                        }
+                                                        render(0);
+                                                })();
+                                </script>
+                        </div>
+                        <!-- STITCH_SHADER_END:ANIMATION_4 -->
+                        <div
+                                class="max-w-screen-xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-element-gap items-center w-full">
+                                <div class="space-y-6 md:space-y-8 max-w-2xl">
+                                        <h1
+                                                class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">
+                                                Zachte elegantie voor jouw nagels.
+                                        </h1>
+                                        <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                                                Bij Nails by Thu draait elke behandeling om rust, precisie en een
+                                                verzorgde uitstraling die bij jou past.
+                                        </p>
+                                        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 md:pt-4">
+                                                <a class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center gap-2 w-full sm:w-auto"
+                                                        href="https://www.fresha.com/nl/lvp/thu-perfect-nails-gustave-dixonstraat-rotterdam-46A6Vy"
+                                                        rel="noopener noreferrer" target="_blank">
+                                                        Boek je afspraak
+                                                        <span class="material-symbols-outlined"
+                                                                style="font-size: 18px;">arrow_forward</span>
+                                                </a>
+                                                <a class="border border-secondary text-on-surface px-8 py-4 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center w-full sm:w-auto"
+                                                        href="#locatie">
+                                                        Bekijk contactgegevens
+                                                </a>
+                                        </div>
+                                </div>
+                                <div class="relative mt-10 lg:mt-0 flex flex-col items-center">
+                                        <div
+                                                class="relative w-full max-w-[300px] sm:max-w-md aspect-[4/5] petal-shape overflow-hidden shadow-2xl">
+                                                <img alt="Verzorgde nagels bij Nails by Thu in zachte lavendeltinten"
+                                                        class="w-full h-full object-cover" src="nail1.jpg" />
+                                                <div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+                                        </div>
+                                        <!-- Floating Card -->
+                                        <div
+                                                class="relative md:absolute md:-bottom-10 md:-left-12 mt-4 md:mt-0 paper-script p-5 md:p-6 rounded-2xl w-full max-w-[280px] md:max-w-xs z-20">
+                                                <ul class="space-y-3 font-body-md text-body-md text-on-surface-variant">
+                                                        <li class="flex items-center gap-3">
+                                                                <span
+                                                                        class="material-symbols-outlined text-tertiary">location_on</span>
+                                                                Rotterdam
+                                                        </li>
+                                                        <li class="flex items-center gap-3">
+                                                                <span
+                                                                        class="material-symbols-outlined text-tertiary">spa</span>
+                                                                Persoonlijke nagelstudio
+                                                        </li>
+                                                        <li class="flex items-center gap-3">
+                                                                <span
+                                                                        class="material-symbols-outlined text-tertiary">event_available</span>
+                                                                Online boeken via Fresha
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Intro Section -->
+                <section class="py-section-gap px-5 md:px-margin-safe bg-surface-container-lowest relative z-10" id="over">
+                        <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+                                <div class="order-2 md:order-1 relative">
+                                        <div
+                                                class="w-full aspect-square bg-surface-container petal-shape-alt absolute top-0 left-0 -z-10 opacity-50 transform -translate-x-8 translate-y-8">
+                                        </div>
+                                        <div
+                                                class="bg-primary-container/20 p-7 md:p-12 rounded-3xl backdrop-blur-sm border border-primary-fixed/30">
+                                                <span
+                                                        class="material-symbols-outlined text-primary text-4xl mb-6">format_quote</span>
+                                                <h2 class="font-headline-md text-headline-md text-primary mb-6">Welkom
+                                                        bij Nails by Thu</h2>
+                                                <p
+                                                        class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                                                        Mijn persoonlijke nagelstudio in hartje Rotterdam is een plek
+                                                        waar je even kunt ontsnappen aan de waan van de dag. Ik geloof
+                                                        dat mooie nagels beginnen bij gezonde nagels en oprechte
+                                                        aandacht voor de klant.
+                                                </p>
+                                        </div>
+                                </div>
+                                <div class="order-1 md:order-2 space-y-6">
+                                        <h3
+                                                class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface">
+                                                Jouw moment van rust</h3>
+                                        <p class="font-body-lg text-body-lg text-on-surface-variant">
+                                                In een serene, minimalistische setting nemen we de tijd om de perfecte
+                                                look voor jou te creëren, passend bij jouw unieke stijl en wensen.
+                                        </p>
+                                </div>
+                        </div>
+                </section>
+                <!-- Signature Feeling -->
+                <section class="py-section-gap px-5 md:px-margin-safe bg-surface-container-low relative">
+                        <div class="max-w-screen-xl mx-auto">
+                                <div class="text-center mb-16">
+                                        <h2 class="font-headline-md text-headline-md text-primary mb-4">Onze werkwijze
+                                        </h2>
+                                        <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
+                                                De basis van elke behandeling bij Nails by Thu.</p>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-element-gap">
+                                        <!-- Block 1 -->
+                                        <div
+                                                class="bg-surface-container-lowest p-8 md:p-10 petal-shape shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center">
+                                                <div
+                                                        class="w-16 h-16 rounded-full bg-primary-container flex items-center justify-center mb-6 text-on-primary-container">
+                                                        <span
+                                                                class="material-symbols-outlined text-3xl">self_improvement</span>
+                                                </div>
+                                                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">
+                                                        Rustige sfeer</h3>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Neem even
+                                                        tijd voor jezelf in een kalme en verzorgde omgeving.</p>
+                                        </div>
+                                        <!-- Block 2 -->
+                                        <div
+                                                class="bg-surface-container-lowest p-8 md:p-10 petal-shape-alt shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center mt-0 md:mt-12">
+                                                <div
+                                                        class="w-16 h-16 rounded-full bg-tertiary-container flex items-center justify-center mb-6 text-on-tertiary-container">
+                                                        <span
+                                                                class="material-symbols-outlined text-3xl">architecture</span>
+                                                </div>
+                                                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">
+                                                        Precieze afwerking</h3>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Elke nagel
+                                                        wordt met aandacht, zorg en oog voor detail afgewerkt.</p>
+                                        </div>
+                                        <!-- Block 3 -->
+                                        <div
+                                                class="bg-surface-container-lowest p-8 md:p-10 petal-shape shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center mt-0 md:mt-24">
+                                                <div
+                                                        class="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center mb-6 text-on-secondary-container">
+                                                        <span class="material-symbols-outlined text-3xl">brush</span>
+                                                </div>
+                                                <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">
+                                                        Persoonlijke stijl</h3>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">De look
+                                                        wordt afgestemd op jouw smaak en persoonlijkheid.</p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Treatments Section -->
+                <section class="py-section-gap px-5 md:px-margin-safe bg-surface relative" id="behandelingen">
+                        <div class="max-w-screen-xl mx-auto">
+                                <div class="text-center mb-16">
+                                        <h2
+                                                class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-4">
+                                                Behandelingen</h2>
+                                        <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
+                                                Kies de behandeling die bij jouw wensen past.</p>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                                        <!-- Service Category 1 -->
+                                        <div class="paper-script p-6 md:p-8 rounded-2xl flex flex-col hover-fade">
+                                                <div class="flex items-center gap-3 mb-4">
+                                                        <span
+                                                                class="bg-primary/10 text-primary px-3 py-1 rounded-full font-label-md text-label-md text-xs uppercase tracking-wider">Klassiek</span>
+                                                        <h3 class="font-headline-sm text-headline-sm text-on-surface">
+                                                                Manicure</h3>
+                                                </div>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Verzorging
+                                                        van de natuurlijke nagel en riemen voor een schone, frisse look.
+                                                </p>
+                                        </div>
+                                        <!-- Service Category 2 -->
+                                        <div class="paper-script p-6 md:p-8 rounded-2xl flex flex-col hover-fade">
+                                                <div class="flex items-center gap-3 mb-4">
+                                                        <span
+                                                                class="bg-tertiary/10 text-tertiary px-3 py-1 rounded-full font-label-md text-label-md text-xs uppercase tracking-wider">Kleur</span>
+                                                        <h3 class="font-headline-sm text-headline-sm text-on-surface">
+                                                                Gel polish</h3>
+                                                </div>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Langdurige
+                                                        kleur met een prachtige glans die wekenlang perfect blijft
+                                                        zitten.</p>
+                                        </div>
+                                        <!-- Service Category 3 -->
+                                        <div class="paper-script p-6 md:p-8 rounded-2xl flex flex-col hover-fade">
+                                                <div class="flex items-center gap-3 mb-4">
+                                                        <span
+                                                                class="bg-secondary/10 text-secondary px-3 py-1 rounded-full font-label-md text-label-md text-xs uppercase tracking-wider">Versteviging</span>
+                                                        <h3 class="font-headline-sm text-headline-sm text-on-surface">
+                                                                BIAB</h3>
+                                                </div>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Builder In
+                                                        A Bottle: de perfecte versteviging voor natuurlijke nagels,
+                                                        helpt ze groeien.</p>
+                                        </div>
+                                        <!-- Service Category 4 -->
+                                        <div class="paper-script p-6 md:p-8 rounded-2xl flex flex-col hover-fade">
+                                                <div class="flex items-center gap-3 mb-4">
+                                                        <span
+                                                                class="bg-primary-container/30 text-on-primary-container px-3 py-1 rounded-full font-label-md text-label-md text-xs uppercase tracking-wider">Lengte</span>
+                                                        <h3 class="font-headline-sm text-headline-sm text-on-surface">
+                                                                Nail extensions</h3>
+                                                </div>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Elegante
+                                                        verlenging van de nagels voor een opvallende, verzorgde
+                                                        uitstraling.</p>
+                                        </div>
+                                        <!-- Service Category 5 -->
+                                        <div class="paper-script p-6 md:p-8 rounded-2xl flex flex-col hover-fade">
+                                                <div class="flex items-center gap-3 mb-4">
+                                                        <span
+                                                                class="bg-tertiary-container/30 text-on-tertiary-container px-3 py-1 rounded-full font-label-md text-label-md text-xs uppercase tracking-wider">Creatief</span>
+                                                        <h3 class="font-headline-sm text-headline-sm text-on-surface">
+                                                                Nail art</h3>
+                                                </div>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Unieke
+                                                        ontwerpen, van subtiele details tot opvallende creaties op maat.
+                                                </p>
+                                        </div>
+                                        <!-- Service Category 6 -->
+                                        <div class="paper-script p-6 md:p-8 rounded-2xl flex flex-col hover-fade">
+                                                <div class="flex items-center gap-3 mb-4">
+                                                        <span
+                                                                class="bg-surface-variant text-on-surface-variant px-3 py-1 rounded-full font-label-md text-label-md text-xs uppercase tracking-wider">Gezondheid</span>
+                                                        <h3 class="font-headline-sm text-headline-sm text-on-surface">
+                                                                Nagelverzorging</h3>
+                                                </div>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Intensieve
+                                                        verzorging voor beschadigde of zwakke nagels en nagelriemen.</p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Video Gallery Section -->
+                <section class="py-section-gap px-5 md:px-margin-safe bg-surface-container-lowest relative overflow-hidden"
+                        id="sfeerbeelden">
+                        <div
+                                class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-primary-container/25 to-transparent pointer-events-none">
+                        </div>
+                        <div class="max-w-screen-xl mx-auto relative z-10">
+                                <div class="max-w-3xl mb-10 md:mb-12">
+                                        <p
+                                                class="font-label-md text-label-md text-tertiary uppercase tracking-wider mb-4">
+                                                Sfeerbeelden</p>
+                                        <h2
+                                                class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-4">
+                                                Een blik op Thu's detailwerk</h2>
+                                        <p class="font-body-md text-body-md text-on-surface-variant">Korte video's uit
+                                                de studio laten de afwerking, glans en zachte stijl van Nails by Thu
+                                                zien.</p>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+                                        <figure
+                                                class="video-frame rounded-3xl overflow-hidden bg-surface-container border border-outline-variant/40 md:mt-10">
+                                                <video class="w-full aspect-[9/16] object-cover" autoplay controls loop muted
+                                                        playsinline preload="metadata" poster="nail1.jpg">
+                                                        <source src="FSave_Reels_Thu-Perfect-Nails-_-Beauty-on-Reels_Media_1314918296813689_001_1080p.mp4"
+                                                                type="video/mp4" />
+                                                </video>
+                                                <figcaption
+                                                        class="p-5 font-body-md text-caption text-on-surface-variant">
+                                                        Lavendelzachte inspiratie en verzorgde finish.</figcaption>
+                                        </figure>
+                                        <figure
+                                                class="video-frame rounded-3xl overflow-hidden bg-surface-container border border-outline-variant/40">
+                                                <video class="w-full aspect-[9/16] object-cover" autoplay controls loop muted
+                                                        playsinline preload="metadata" poster="nail1.jpg">
+                                                        <source src="FSave_Reels_Thu-Perfect-Nails-_-Beauty-on-Reels_Media_1422348325506960_001_1080p.mp4"
+                                                                type="video/mp4" />
+                                                </video>
+                                                <figcaption
+                                                        class="p-5 font-body-md text-caption text-on-surface-variant">
+                                                        Precisie, kleur en een rustige salonervaring.</figcaption>
+                                        </figure>
+                                        <figure
+                                                class="video-frame rounded-3xl overflow-hidden bg-surface-container border border-outline-variant/40 md:mt-16">
+                                                <video class="w-full aspect-[9/16] object-cover" autoplay controls loop muted
+                                                        playsinline preload="metadata" poster="nail1.jpg">
+                                                        <source src="FSave_Reels_Thu-Perfect-Nails-_-Beauty-on-Reels_Media_993659659461005_001_480p.mp4"
+                                                                type="video/mp4" />
+                                                </video>
+                                                <figcaption
+                                                        class="p-5 font-body-md text-caption text-on-surface-variant">
+                                                        Subtiele details voor een persoonlijke look.</figcaption>
+                                        </figure>
+                                </div>
+                        </div>
+                </section>
+                <!-- Booking & Opening Hours CTA Section -->
+                <section class="py-section-gap px-5 md:px-margin-safe relative overflow-hidden bg-primary text-on-primary">
+                        <!-- STITCH_SHADER_START:ANIMATION_4 class="absolute inset-0 w-full h-full z-0 opacity-20 mix-blend-screen" -->
+                        <div class="absolute inset-0 w-full h-full z-0 opacity-20 mix-blend-screen"
+                                style="display:block;">
+                                <canvas id="shader-canvas-ANIMATION_4_CTA"
+                                        style="display:block;width:100%;height:100%"></canvas>
+                                <script>
+                                        (function () {
+                                                const canvas = document.getElementById('shader-canvas-ANIMATION_4_CTA');
+
+                                                // Sync the WebGL drawing-buffer size with the CSS-driven layout size.
+                                                // This fires on initial layout and whenever the element is resized.
+                                                function syncSize() {
+                                                        const w = canvas.clientWidth || 1280;
+                                                        const h = canvas.clientHeight || 720;
+                                                        if (canvas.width !== w || canvas.height !== h) {
+                                                                canvas.width = w;
+                                                                canvas.height = h;
+                                                        }
+                                                }
+                                                if (typeof ResizeObserver !== 'undefined') {
+                                                        new ResizeObserver(syncSize).observe(canvas);
+                                                }
+                                                syncSize();
+
+                                                const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+                                                if (!gl) return;
+                                                const vs = `attribute vec2 a_position;
+varying vec2 v_texCoord;
+void main() {
+  v_texCoord = a_position * 0.5 + 0.5;
+  gl_Position = vec4(a_position, 0.0, 1.0);
+}`;
+                                                const fs = `
+precision highp float;
+varying vec2 v_texCoord;
+uniform float u_time;
+uniform vec2 u_resolution;
+
+// Simpele noise functie voor zwevende beweging
+float hash(vec2 p) {
+    p = fract(p * vec2(123.34, 456.21));
+    p += dot(p, p + 45.32);
+    return fract(p.x * p.y);
+}
+
+void main() {
+    vec2 uv = v_texCoord;
+    vec2 p = uv * u_resolution.xy / max(u_resolution.x, u_resolution.y);
+    
+    // Zachte lavendel achtergrondkleur
+    vec3 color = vec3(0.95, 0.93, 1.0); // Zeer licht lila
+    
+    // Simuleer zwevende blaadjes/deeltjes
+    for(float i=0.0; i<15.0; i++) {
+        float h = hash(vec2(i, i*1.2));
+        float t = u_time * 0.1 + h * 10.0;
+        
+        // Positie berekening
+        vec2 pos = vec2(
+            fract(h * 2.0 + sin(t * 0.5) * 0.1), 
+            fract(h * 3.0 + t * 0.2)
+        );
+        
+        // Afstand tot pixel
+        float dist = length(uv - pos);
+        
+        // Teken een 'blaadje' (zachte ovaal)
+        float size = 0.005 + h * 0.01;
+        float petal = smoothstep(size, 0.0, dist);
+        
+        // Kleur van de blaadjes (lavendel paars)
+        vec3 petalColor = vec3(0.74, 0.70, 1.0); // #BDB2FF
+        color = mix(color, petalColor, petal * 0.3);
+    }
+    
+    gl_FragColor = vec4(color, 1.0);
+}
+`;
+                                                function cs(type, src) {
+                                                        const s = gl.createShader(type);
+                                                        gl.shaderSource(s, src);
+                                                        gl.compileShader(s);
+                                                        return s;
+                                                }
+                                                const prog = gl.createProgram();
+                                                gl.attachShader(prog, cs(gl.VERTEX_SHADER, vs));
+                                                gl.attachShader(prog, cs(gl.FRAGMENT_SHADER, fs));
+                                                gl.linkProgram(prog);
+                                                gl.useProgram(prog);
+                                                const buf = gl.createBuffer();
+                                                gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+                                                gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+                                                const pos = gl.getAttribLocation(prog, 'a_position');
+                                                gl.enableVertexAttribArray(pos);
+                                                gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+                                                const uTime = gl.getUniformLocation(prog, 'u_time');
+                                                const uRes = gl.getUniformLocation(prog, 'u_resolution');
+                                                const uMouse = gl.getUniformLocation(prog, 'u_mouse');
+
+                                                // u_mouse is in pixel coordinates matching u_resolution (ShaderToy convention).
+                                                // Shaders that need normalized coords should use: u_mouse / u_resolution.
+                                                let mouse = { x: canvas.width / 2, y: canvas.height / 2 };
+                                                window.addEventListener('mousemove', (event) => {
+                                                        const rect = canvas.getBoundingClientRect();
+                                                        if (rect.width && rect.height) {
+                                                                const nx = (event.clientX - rect.left) / rect.width;
+                                                                const ny = 1.0 - (event.clientY - rect.top) / rect.height;
+                                                                mouse.x = nx * canvas.width;
+                                                                mouse.y = ny * canvas.height;
+                                                        }
+                                                });
+
+                                                function render(t) {
+                                                        if (typeof ResizeObserver === 'undefined') syncSize();
+                                                        gl.viewport(0, 0, canvas.width, canvas.height);
+                                                        if (uTime) gl.uniform1f(uTime, t * 0.001);
+                                                        if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+                                                        if (uMouse) gl.uniform2f(uMouse, mouse.x, mouse.y);
+                                                        gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+                                                        requestAnimationFrame(render);
+                                                }
+                                                render(0);
+                                        })();
+                                </script>
+                        </div>
+                        <!-- STITCH_SHADER_END:ANIMATION_4 -->
+                        <div
+                                class="max-w-screen-xl mx-auto relative z-10 flex flex-col md:flex-row gap-10 md:gap-16 justify-between items-start md:items-center">
+                                <div class="max-w-xl w-full">
+                                        <h2
+                                                class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg mb-6">
+                                                Plan je afspraak eenvoudig online</h2>
+                                        <p class="font-body-lg text-body-lg text-primary-fixed mb-8 opacity-90">
+                                                Ontdek alle behandelingen en prijzen via Fresha en kies een tijdstip dat
+                                                jou uitkomt.
+                                        </p>
+                                        <a class="bg-surface text-primary px-8 py-4 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center gap-2 shadow-lg w-full sm:w-auto"
+                                                href="https://www.fresha.com/nl/lvp/thu-perfect-nails-gustave-dixonstraat-rotterdam-46A6Vy"
+                                                rel="noopener noreferrer" target="_blank">
+                                                Bekijk agenda op Fresha
+                                                <span class="material-symbols-outlined">calendar_month</span>
+                                        </a>
+                                </div>
+                                <div
+                                        class="bg-surface-container-lowest/10 backdrop-blur-md border border-surface/20 p-6 md:p-8 rounded-3xl w-full max-w-sm">
+                                        <h3 class="font-headline-sm text-headline-sm mb-6 flex items-center gap-2">
+                                                <span class="material-symbols-outlined">schedule</span>
+                                                Openingstijden
+                                        </h3>
+                                        <div class="space-y-4 font-body-md text-body-md">
+                                                <div class="flex justify-between items-center">
+                                                        <span class="opacity-90">Ma - Vr</span>
+                                                        <span class="font-medium">09:00 - 20:00</span>
+                                                </div>
+                                                <div class="w-full h-px bg-surface/20"></div>
+                                                <div class="flex justify-between items-center">
+                                                        <span class="opacity-90">Za</span>
+                                                        <span class="font-medium">09:00 - 12:00</span>
+                                                </div>
+                                                <div class="w-full h-px bg-surface/20"></div>
+                                                <div class="flex justify-between items-center text-primary-fixed-dim">
+                                                        <span class="opacity-90">Zo</span>
+                                                        <span class="font-medium">Gesloten</span>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Contact & Map Section -->
+                <section class="py-section-gap px-5 md:px-margin-safe bg-surface-container-lowest" id="locatie">
+                        <div class="max-w-screen-xl mx-auto">
+                                <div class="text-center mb-16">
+                                        <h2
+                                                class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-4">
+                                                Vind ons in Rotterdam</h2>
+                                        <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
+                                                Gemakkelijk bereikbaar voor jouw moment van ontspanning.</p>
+                                </div>
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-element-gap">
+                                        <!-- Contact Details -->
+                                        <div class="space-y-8 paper-script p-6 md:p-12 rounded-3xl">
+                                                <div>
+                                                        <h3
+                                                                class="font-headline-sm text-headline-sm text-on-surface mb-2">
+                                                                Adres</h3>
+                                                        <p
+                                                                class="font-body-md text-body-md text-on-surface-variant flex items-start gap-2">
+                                                                <span
+                                                                        class="material-symbols-outlined text-tertiary mt-1">location_on</span>
+                                                                Gustave Dixonstraat 42<br />3065NC Rotterdam
+                                                        </p>
+                                                </div>
+                                                <div>
+                                                        <h3
+                                                                class="font-headline-sm text-headline-sm text-on-surface mb-2">
+                                                                Contact</h3>
+                                                        <ul class="space-y-3">
+                                                                <li>
+                                                                        <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary flex items-center gap-2 transition-colors"
+                                                                                href="tel:0627211188">
+                                                                                <span
+                                                                                        class="material-symbols-outlined text-tertiary">phone</span>
+                                                                                0627211188
+                                                                        </a>
+                                                                </li>
+                                                                <li>
+                                                                        <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary flex items-center gap-2 transition-colors"
+                                                                                href="mailto:thuperfectnails@gmail.com">
+                                                                                <span
+                                                                                        class="material-symbols-outlined text-tertiary">mail</span>
+                                                                                thuperfectnails@gmail.com
+                                                                        </a>
+                                                                </li>
+                                                                <li>
+                                                                        <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary flex items-center gap-2 transition-colors"
+                                                                                href="https://www.facebook.com/p/Thu-Perfect-Nails-Beauty-100066200687571/"
+                                                                                rel="noopener noreferrer"
+                                                                                target="_blank">
+                                                                                <span
+                                                                                        class="material-symbols-outlined text-tertiary">public</span>
+                                                                                Facebook Thu Perfect Nails Beauty
+                                                                        </a>
+                                                                </li>
+                                                        </ul>
+                                                </div>
+                                                <div
+                                                        class="pt-6 border-t border-outline-variant/30 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
+                                                        <a class="bg-primary-container text-on-primary-container px-6 py-3 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center w-full sm:w-auto"
+                                                                href="tel:0627211188">Bel ons</a>
+                                                        <a class="border border-outline text-on-surface px-6 py-3 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center w-full sm:w-auto"
+                                                                href="mailto:thuperfectnails@gmail.com">Stuur een
+                                                                e-mail</a>
+                                                        <a class="border border-outline text-on-surface px-6 py-3 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center w-full sm:w-auto"
+                                                                href="https://www.facebook.com/p/Thu-Perfect-Nails-Beauty-100066200687571/"
+                                                                rel="noopener noreferrer" target="_blank">Facebook</a>
+                                                </div>
+                                        </div>
+                                        <!-- Map Image Placeholder (Simulating Map iframe) -->
+                                        <div
+                                                class="h-[320px] md:h-[400px] lg:h-full min-h-[320px] md:min-h-[400px] rounded-3xl overflow-hidden bg-surface-container relative">
+                                                <img alt="Map of Rotterdam location"
+                                                        class="w-full h-full object-cover mix-blend-luminosity opacity-80"
+                                                        data-alt="A stylized, minimalist map view of Rotterdam city center emphasizing clean lines, soft lighting, and a modern aesthetic. The map features subtle pastel tones matching the UI, with gentle curves for roads and waterways, avoiding harsh colors or cluttered labels."
+                                                        data-location="Rotterdam"
+                                                        src="rotterdam-map-soft.jpg" />
+                                                <div class="absolute inset-0 bg-primary/5 mix-blend-multiply"></div>
+                                                <div
+                                                        class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                                                        <!-- Map pin indicator -->
+                                                        <div
+                                                                class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center animate-pulse">
+                                                                <span class="material-symbols-outlined text-primary text-3xl drop-shadow-md"
+                                                                        style="font-variation-settings: 'FILL' 1;">location_on</span>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Final CTA -->
+                <section class="py-section-gap px-5 md:px-margin-safe bg-surface-container-low text-center">
+                        <div class="max-w-2xl mx-auto space-y-8">
+                                <h2
+                                        class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary">
+                                        Klaar voor een zachte, verzorgde look?</h2>
+                                <a class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover-fade inline-flex items-center justify-center gap-2 w-full sm:w-auto"
+                                        href="https://www.fresha.com/nl/lvp/thu-perfect-nails-gustave-dixonstraat-rotterdam-46A6Vy"
+                                        rel="noopener noreferrer" target="_blank">
+                                        Boek nu je afspraak
+                                        <span class="material-symbols-outlined"
+                                                style="font-size: 18px;">arrow_forward</span>
+                                </a>
+                        </div>
+                </section>
+        </main>
+        <!-- Footer (Shared Component) -->
+        <footer
+                class="bg-surface-container-lowest dark:bg-surface-container-lowest w-full py-section-gap px-5 md:px-margin-safe border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-element-gap">
+                <div class="font-display-lg text-headline-sm text-primary dark:text-primary-fixed-dim">Nails by Thu
+                </div>
+                <div
+                        class="font-body-md text-caption text-on-surface-variant dark:text-on-surface-variant text-center md:text-left">
+                        © 2026 Nails by Thu. Gustave Dixonstraat 42, 3065NC Rotterdam.
+                </div>
+                <div class="flex flex-wrap justify-center gap-4 font-body-md text-caption">
+                        <a class="text-on-surface-variant hover:text-secondary transition-colors focus:underline"
+                                href="#">Algemene Voorwaarden</a>
+                        <a class="text-on-surface-variant hover:text-secondary transition-colors focus:underline"
+                                href="#">Privacybeleid</a>
+                        <a class="text-on-surface-variant hover:text-secondary transition-colors focus:underline"
+                                href="https://www.facebook.com/p/Thu-Perfect-Nails-Beauty-100066200687571/"
+                                rel="noopener noreferrer" target="_blank">Facebook</a>
+                </div>
+        </footer>
+        <!-- BottomNavBar (Shared Component - Mobile Only) -->
+        <nav
+                class="fixed inset-x-4 bottom-4 md:hidden flex justify-center items-center z-50 rounded-[22px] shadow-[0_16px_36px_rgba(95,85,154,0.28)] bg-primary/95 backdrop-blur-md">
+                <a class="flex flex-row items-center justify-center gap-unit bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-container py-4 px-5 w-full font-label-md text-label-md hover:brightness-110 active:scale-[0.99] transition-transform rounded-[22px]"
+                        href="https://www.fresha.com/nl/lvp/thu-perfect-nails-gustave-dixonstraat-rotterdam-46A6Vy">
+                        <span class="material-symbols-outlined">calendar_month</span>
+                        Snel boeken
+                </a>
+        </nav>
+</body>
+
+</html>
