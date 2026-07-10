@@ -1,19 +1,56 @@
-# Remote Image Assets
+# Remote assets not downloaded
 
-These remote image URLs were referenced by `index.html` and have now been downloaded into this project folder.
-
-## Downloaded mappings
-
-1. `hero-texture-lavender.jpg`
-   Source: `https://lh3.googleusercontent.com/aida-public/AB6AXuBbQ06IObavf-qTcmZbPV7iFc6xUTUj_2CgP9M370sqTR2jKl-R7SeOHGvFP5b8gWq4QDmEIqdweBOyujxmpY88To77lWxAvnC2GwZz8c0pkBhd_zQeX3_7osQRG1jTwK9ulrWOA2K9IsDAc5bGwvHzOWvSGsXT70qD4qk85btu1_j97LElbcgN_fU2D1IU_NgMHtJtZFzJrlb-UVt7u12vir0xNj7QSxLr_c8GOx9g3lF6y8U2rxaW6lqiwAobAu-z_V6Ur3Z5iORY`
-
-2. `rotterdam-map-soft.jpg`
-   Source: `https://lh3.googleusercontent.com/aida-public/AB6AXuAq-yb6pY7jMMkpU-udV1-pyBBRjPoGoSd398lLckmuPU7PmcZJaqAabsxxS_FLG5Jfq-9Be_3VxBm2bkAjoM_hDDQpuUH0e-cn0M2DH6OZJxdM88lghkj16IncX3kVs_mcbnp1elyQSTn9FkjiHi831sRw8heEXqRIkmSWFDnQdAlOQiYoDY-FBlgTJx_5BOz5xekw8qUT_NSIlx8nMoArLvEIiXQE4CfYrpT05pMlTnD0TJDJD-7fCdvdO1ZJaiapvAvr_YhQWh9a`
-
-## Current local usage in `index.html`
-
-1. Hero background texture:
-   `hero-texture-lavender.jpg`
-
-2. Rotterdam map image:
-   `rotterdam-map-soft.jpg`
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/bold-page-builder/fonts/FontAwesome5Brands.otf
+  - Ten file local de xuat: wp-content/plugins/bold-page-builder/fonts/FontAwesome5Brands.otf
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/bold-page-builder/fonts/FontAwesome5Brands.otf
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.png
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.png
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.png
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.eot
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/star.eot
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.eot
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.woff
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/star.woff
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.woff
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.ttf
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/star.ttf
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.ttf
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.svg#star
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/star.svg
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/star.svg#star
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+- URL goc: https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce
+  - Ten file local de xuat: wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg
+  - Loi: 404 https://thuperfectnails.nl/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg#WooCommerce
